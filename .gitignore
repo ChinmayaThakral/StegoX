@@ -1,0 +1,384 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Android
+android-app/.gradle/
+android-app/build/
+android-app/app/build/
+android-app/local.properties
+android-app/.idea/
+android-app/*.iml
+android-app/app/*.iml
+android-app/gradle.properties
+android-app/gradle/wrapper/gradle-wrapper.jar
+android-app/.gradle/
+android-app/captures/
+android-app/gradlew
+android-app/gradlew.bat
+android-app/local.properties
+android-app/release/
+android-app/debug/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+*.bak
+*.backup
+*.old
+
+# Audio/Video processing
+*.wav.tmp
+*.mp3.tmp
+*.mp4.tmp
+*.avi.tmp
+*.mov.tmp
+
+# Streamlit
+.streamlit/
+.streamlit/secrets.toml
+
+# Model files and AI artifacts
+*.model
+*.pkl
+*.h5
+*.pth
+*.pt
+*.onnx
+*.tflite
+*.pb
+*.ckpt
+*.safetensors
+*.bin
+*.gguf
+*.ggml
+
+# Logs
+*.log
+logs/
+log/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+
+# Configuration files with potential secrets
+config.ini
+config.json
+config.yaml
+config.yml
+settings.json
+settings.yaml
+settings.yml
+secrets.json
+secrets.yaml
+secrets.yml
+.env.local
+.env.development
+.env.test
+.env.production
+.env.staging
+
+# API keys and tokens
+*api_key*
+*api_token*
+*token*
+*secret*
+*password*
+*credential*
+
+# SSL certificates
+*.pem
+*.key
+*.crt
+*.csr
+*.p12
+*.pfx
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Windows
+*.lnk
+*.exe
+*.msi
+*.dmg
+
+# Linux
+*~
+
+# Node.js (if any)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ruby (if any)
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/tmp/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Project specific
+# Remove any dataset files that might contain sensitive information
+Dataset/**/*.mp3
+Dataset/**/*.mp4
+Dataset/**/*.png
+Dataset/**/*.jpg
+Dataset/**/*.jpeg
+Dataset/**/*.wav
+Dataset/**/*.avi
+Dataset/**/*.mov
+
+# Keep dataset structure but ignore actual media files
+!Dataset/**/
+!Dataset/**/*.md
+!Dataset/**/*.txt
+
+# Temporary steganography files
+stego_*.png
+stego_*.mp3
+stego_*.mp4
+stego_*.wav
+stego_*.avi
+stego_*.mov
+
+# Voice authentication files
+voice_*.mp3
+voice_*.wav
+voice_*.m4a
+voice_*.ogg
+
+# Test files
+test_*.py
+*_test.py
+test_*.mp3
+test_*.png
+test_*.mp4
+
+# Development files
+dev_*.py
+debug_*.py
+temp_*.py 
