@@ -584,7 +584,7 @@ def main():
 
     with about_tab:
         st.header("About StegoX")
-        st.info("About section will be added manually later.")
+        st.info("About section")
 
 if __name__ == "__main__":
     main()

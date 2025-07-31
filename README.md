@@ -33,9 +33,9 @@ cd StegoX
 pip install -r requirements.txt
 ```
 
-3. Run the setup script to verify installation:
+3. (Optional) Test the installation:
 ```bash
-python setup.py
+python -c "import streamlit, pycryptodome, PIL, numpy, whisper; print('All dependencies installed successfully!')"
 ```
 
 ## Usage
@@ -70,7 +70,7 @@ StegoX/
 ├── audio_stego.py         # Audio steganography implementation
 ├── voice_auth.py          # Voice authentication using Whisper AI
 ├── utils.py               # Utility functions and helpers
-├── setup.py               # Installation and setup script
+
 ├── requirements.txt       # Python dependencies
 ├── android-app/           # Android application
 │   └── app/
